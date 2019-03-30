@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './App.css';
 import Person from './Person/Person';
 
@@ -15,9 +15,7 @@ import Person from './Person/Person';
 // TODO example for React hooks
 // React hooks Example
 const app = props => {
-  };
 
-  render() {
     return (
       <div className="App">
        <h1>Hi I'm a react app</h1>
@@ -28,15 +26,10 @@ const app = props => {
         <Person name={this.state.persons[2].name}/>
       </div>
     );
-    // return React.createElement(
-    //   "div",
-    //   null,
-    //   React.createElement("h1",{className: 'App'}, "Hi, I'm a React App!!!")
-    // );
-  }
-}
+};
 
-export default App;
+
+export default app;
 
 // state = {
 //     persons: [
