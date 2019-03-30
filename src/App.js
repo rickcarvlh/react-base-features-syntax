@@ -12,7 +12,8 @@ import Person from './Person/Person';
 //     otherState: 'some other value'
 //   }
 
-// React hooks
+// TODO exmaple for React hooks
+// React hooks EXample
 const app = props => {
   state = {
     persons: [
