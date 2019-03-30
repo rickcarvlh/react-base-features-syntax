@@ -12,29 +12,9 @@ import Person from './Person/Person';
 //     otherState: 'some other value'
 //   }
 
-// TODO exmaple for React hooks
-// React hooks EXample
+// TODO example for React hooks
+// React hooks Example
 const app = props => {
-  state = {
-    persons: [
-      { name: 'Max', age: 28 },
-      { name: 'Manu', age: 29 },
-      { name: 'Stephanie', age: 26 },
-    ],
-    otherState: 'some other value'
-  }
-
-  //  chaning name using state
-  switchNameHandler = () => {
-    // console.log('was clicked');
-    this.setState({
-      persons: [
-        { name: 'Maximilian', age: 28 },
-        { name: 'Manu', age: 29 },
-        { name: 'Stephanie', age: 27 },
-      ],
-    })
-    
   };
 
   render() {
@@ -57,3 +37,25 @@ const app = props => {
 }
 
 export default App;
+
+// state = {
+//     persons: [
+//         { name: 'Max', age: 28 },
+//         { name: 'Manu', age: 29 },
+//         { name: 'Stephanie', age: 26 },
+//     ],
+//     otherState: 'some other value'
+// };
+//
+// //  chaning name using state
+// switchNameHandler = () => {
+//     // console.log('was clicked');
+//     this.setState({
+//         persons: [
+//             { name: 'Maximilian', age: 28 },
+//             { name: 'Manu', age: 29 },
+//             { name: 'Stephanie', age: 27 },
+//         ],
+//     })
+//
+
